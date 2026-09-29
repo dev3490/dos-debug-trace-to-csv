@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-use std::{fs, io, path::Path, process::exit};
+use std::{fs, path::Path, process::exit};
 
 use serde::Serialize;
 use winnow::{
