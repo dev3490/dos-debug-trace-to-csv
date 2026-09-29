@@ -7,10 +7,6 @@ As a programmer, I couldn't accept this fate, so I wrote this program, which par
 
 ---
 
-
-
----
-
 It's not quite that simple, though. There are a few limitations:
 1. `debug` cannot show the actual source code; it shows disassembly, which I later need to replace with source code
 2. `debug` starts with ZF and PF set (ZR, PE), while `td` starts with only IF set, so the flags have to be reset manually through `debug` options
